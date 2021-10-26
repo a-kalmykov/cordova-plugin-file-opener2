@@ -22,7 +22,7 @@
                 <param name="android-package" value="io.github.pwlin.cordova.plugins.fileopener2.FileOpener2" />
             </feature>
         </config-file>
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/*">
+        <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
         </config-file>
@@ -32,7 +32,8 @@
           </provider>
         </config-file>
         <source-file src="src/android/res/xml/opener_paths.xml" target-dir="res/xml" />
-        <framework src="com.android.support:support-v4:27.+"/>
+        <preference name="ANDROID_SUPPORT_V4_VERSION" default="27.+"/>
+        <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
     </platform>
 
     <!-- iOS -->
