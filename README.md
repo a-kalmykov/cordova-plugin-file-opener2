@@ -17,7 +17,7 @@ cordova.plugins.fileOpener2.open(
 ## Installation
 
 ```shell
-$ cordova plugin add wm-cordova-plugin-file-opener
+$ cordova plugin add wm-cordova-plugin-fileopener
 ```
 
 ### Optional variables
