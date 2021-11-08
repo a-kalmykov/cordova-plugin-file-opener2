@@ -1,6 +1,6 @@
 {
   "name": "wm-cordova-plugin-fileopener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A File Opener Plugin for Cordova. (The Original Version)",
   "cordova": {
     "id": "wm-cordova-plugin-fileopener",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pwlin/cordova-plugin-file-opener2.git"
+    "url": "https://github.com/wavemaker/cordova-plugin-file-opener2.git"
   },
   "keywords": [
     "ecosystem:cordova",
